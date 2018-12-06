@@ -1,6 +1,6 @@
 {
   "name": "@zcorky/koa-response-time",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "response time header for koa",
   "main": "lib/index.js",
   "module": "lib/index.js",
