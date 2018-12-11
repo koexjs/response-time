@@ -1,10 +1,10 @@
 {
-  "name": "@zcorky/koa-response-time",
-  "version": "0.0.2",
-  "description": "response time header for koa",
+  "name": "@koex/response-time",
+  "version": "0.0.1",
+  "description": "response time for koa",
   "main": "lib/index.js",
   "module": "lib/index.js",
-  "repository": "https://github.com/zcorky/koa-response-time",
+  "repository": "https://github.com/koexjs/response-time",
   "author": "Zero",
   "license": "MIT",
   "scripts": {
@@ -19,6 +19,7 @@
     "@types/mocha": "^5.2.5",
     "@types/node": "^10.9.4",
     "coveralls": "^3.0.2",
+    "husky": "^1.2.0",
     "koa": "^2.6.2",
     "mocha": "^5.2.0",
     "nyc": "^13.1.0",
@@ -35,6 +36,11 @@
   "files": [
     "lib/"
   ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  },
   "nyc": {
     "check-coverage": true,
     "lines": 60,

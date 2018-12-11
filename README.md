@@ -1,18 +1,18 @@
-# koa-response-time
+# response-time
 
-[![NPM version](https://img.shields.io/npm/v/@zcorky/koa-response-time.svg?style=flat)](https://www.npmjs.com/package/@zcorky/koa-response-time)
-[![Coverage Status](https://img.shields.io/coveralls/zcorky/koa-response-time.svg?style=flat)](https://coveralls.io/r/zcorky/koa-response-time)
-[![Dependencies](https://david-dm.org/@zcorky/koa-response-time/status.svg)](https://david-dm.org/@zcorky/koa-response-time)
-[![Build Status](https://travis-ci.com/zcorky/koa-response-time.svg?branch=master)](https://travis-ci.com/zcorky/koa-response-time)
-![license](https://img.shields.io/github/license/zcorky/koa-response-time.svg)
-[![issues](https://img.shields.io/github/issues/zcorky/koa-response-time.svg)](https://github.com/zcorky/koa-response-time/issues)
+[![NPM version](https://img.shields.io/npm/v/@koex/response-time.svg?style=flat)](https://www.npmjs.com/package/@koex/response-time)
+[![Coverage Status](https://img.shields.io/coveralls/koexjs/response-time.svg?style=flat)](https://coveralls.io/r/koexjs/response-time)
+[![Dependencies](https://img.shields.io/david/koexjs/response-time.svg)](https://github.com/koexjs/response-time)
+[![Build Status](https://travis-ci.com/koexjs/response-time.svg?branch=master)](https://travis-ci.com/koexjs/response-time)
+![license](https://img.shields.io/github/license/koexjs/response-time.svg)
+[![issues](https://img.shields.io/github/issues/koexjs/response-time.svg)](https://github.com/koexjs/response-time/issues)
 
-> response time header for Koa.
+> response time for koa extend.
 
 ### Install
 
 ```
-$ npm install @zcorky/koa-response-time
+$ npm install @koex/response-time
 ```
 
 ### Usage
@@ -20,7 +20,7 @@ $ npm install @zcorky/koa-response-time
 ```javascript
 // See more in test
 import * as path from 'path';
-import responeTime from '@zcorky/koa-response-time';
+import responeTime from '@koex/response-time';
 
 import * as Koa from 'koa';
 const app = new Koa();
