@@ -16,7 +16,7 @@ export interface Options {
 export default (options?: Options): Middleware => {
   const hrtime = options && options.hrtime;
 
-  return async function koaEjs(ctx: Context, next: () => Promise<void>) {
+  return async function koexResponseTime(ctx: Context, next: () => Promise<void>) {
     const start = process.hrtime();
 
     await next();
